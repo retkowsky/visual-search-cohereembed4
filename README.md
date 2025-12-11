@@ -4,7 +4,7 @@ Welcome to **visual search with cohere embed 4 **!
 
 This project enables advanced image search capabilities powered by [Cohere's Embed v4]. It provides a simple, scalable system for indexing and retrieving images using multimodal AI embeddings, making it easy to find similar or relevant images in large datasets.
 
-## What makes Embed 4 stand out?
+## ⭐ What makes Embed 4 stand out?
 
 - **100+ Language Support**: This model is truly global – it supports well over 100 languages for text embeddings. You can encode queries and documents in many languages (Arabic, Chinese, French, Hindi, etc.) into the same vector space, enabling cross-lingual search out of the box. For example, a question in Spanish can retrieve a relevant document originally in English if their ideas align semantically.
 - **Multi-Modal Embeddings**: Embed 4 is capable of embedding not only text but also images. This means you can use it for multimodal search scenarios – e.g. indexing both textual content and images and allowing queries across them. Under the hood, the model has an image encoder; the Azure AI Foundry SDK provides an ImageEmbeddingsClient to generate embeddings from images. With this, you could embed a diagram or a screenshot and find text documents that are semantically related to that image’s content.
@@ -26,7 +26,7 @@ This project enables advanced image search capabilities powered by [Cohere's Emb
 - Searching with descriptive text: "Show me all images of beaches at sunset"
 - Visual deduplication or near-duplicate detection
 
-## Documentation
+## 📚 Documentation
 - https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/unlock-multi-modal-embed-4-and-multilingual-agentic-rag-with-command-a-on-azure/4404458
 - https://ai.azure.com/explore/models/embed-v-4-0/version/1/registry/azureml-cohere?tid=16b3c013-d300-468d-ac64-7eda0820b6d3
 
